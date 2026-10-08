@@ -2,7 +2,13 @@
 
 A Windows desktop app that types your text into the active window. Includes a configurable speed (1–200 characters/second), start delay (1–60 seconds), progress display, and a global **F8** stop hotkey. Built with Python's Tkinter and Windows APIs; no runtime packages required.
 
-## Install and run
+## Download the Windows executable (no commands)
+
+Open the repository's [Build Windows EXE workflow](https://github.com/timelord-1/Autotyper/actions/workflows/windows-exe.yml). Select the latest successful run, scroll to **Artifacts**, and download **Autotyper-Windows** (GitHub sign-in required). Extract the ZIP, then double-click **Autotyper.exe**. Python is bundled; no installation or terminal commands are needed. The executable targets 64-bit Windows 10 or newer.
+
+Builds are unsigned, so Windows may display an unknown-publisher warning. Only run a download you trust from this repository. The GitHub artifact expires after its retention period; the workflow can be rerun from the Actions page.
+
+## Install and run from source
 
 Use Windows 10 or newer with Python 3.11+ from python.org, including Tcl/Tk support. In PowerShell, from this checkout:
 

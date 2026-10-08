@@ -1,0 +1,1 @@
+"""Autotyper desktop application."""
